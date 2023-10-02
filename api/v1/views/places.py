@@ -268,10 +268,10 @@ def create_place(city_id):
             [{"__class__": "Place",
               "created_at": "2017-03-25T02:17:06",
               "id": "dacec983-cec4-4f68-bd7f-af9068a305f5",
-              "name": "The Lynn House",
+              "name": "The Grace House",
               "city_id": "1721b75c-e0b2-46ae-8dd2-f86b62fb46e6",
               "user_id": "3ea61b06-e22a-459b-bb96-d900fb8f843a",
-              "description": "Our place is 2 blocks from Vista Park",
+              "description": "Our place is 200m from Alloys Park",
               "number_rooms": 2,
               "number_bathrooms": 2,
               "max_guest": 4,
@@ -460,10 +460,10 @@ def list_places():
             [{"__class__": "Place",
               "created_at": "2017-03-25T02:17:06",
               "id": "dacec983-cec4-4f68-bd7f-af9068a305f5",
-              "name": "The Lynn House",
+              "name": "The Grace House",
               "city_id": "1721b75c-e0b2-46ae-8dd2-f86b62fb46e6",
               "user_id": "3ea61b06-e22a-459b-bb96-d900fb8f843a",
-              "description": "Our place is 2 blocks from Vista Park",
+              "description": "Our place is 200m from Alloys Park",
               "number_rooms": 2,
               "number_bathrooms": 2,
               "max_guest": 4,
@@ -516,4 +516,4 @@ def list_places():
         else:
             all_places = all_places2
     return jsonify([p.to_json() for p in all_places])
-# what to do for junk states, cities, amenitie
+# what to do for junk states, cities, amenities
