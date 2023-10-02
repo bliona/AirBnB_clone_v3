@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    app.py connects to API. and is the app entry point
+    app.py connects to API and is the app entry point
 """
 
 import os
