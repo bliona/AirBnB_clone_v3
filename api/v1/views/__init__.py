@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    Views for AirBnB_clone_v3
+    Viewing AirBnB_clone_v3
 """
 
 from flask import Blueprint
