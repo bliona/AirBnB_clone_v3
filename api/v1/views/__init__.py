@@ -19,6 +19,4 @@ from api.v1.views.places_reviews import *
 """
 creates the Blueprint for flask application
 """
-# this means a client querying dns/api/v1/ will be handled by
-# api_views
-# and all those routes are inside the __name__ ie here views module
+
