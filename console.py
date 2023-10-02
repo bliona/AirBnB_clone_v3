@@ -1,9 +1,14 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 """
 This is module base_model
 This module defines one class HBNBCommand.
 It inherits from cmd and creates a command interpreter
 """
+=======
+""" the console """
+
+>>>>>>> e8f557f9e3d06252e458b3cf17d36eadfe903acf
 import cmd
 from models.base_model import BaseModel
 from models.user import User
